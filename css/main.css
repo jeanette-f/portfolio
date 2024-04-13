@@ -1,0 +1,27 @@
+* {
+    color: #351D77;
+    font-family: "Alata", sans-serif;
+}
+
+.content-wrapper {
+    width: 90%;
+}
+
+header {
+    background-color: #E8F0E4;
+}
+
+h1 {
+    
+}
+
+p {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.hero {
+    background-color: #E8F0E4;
+}
+footer {
+    background-color: #E8F0E4;
+}
