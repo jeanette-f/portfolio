@@ -3,7 +3,7 @@
     <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Jeanette Ferlan</title>
+        <title>Jeanette Ferlan Web Development</title>
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         
@@ -38,9 +38,10 @@
         </div>
           <nav>
             <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="work/index.html">Portfolio</a></li>
-              <li><a href="#contact">Contact</a> </li>
+              <li><a href="index.html">Home <i class="fa-solid fa-house"></i></a></li>
+              <li><a href="#about">About <i class="fa-solid fa-user"></i></a></li>
+              <li><a href="#projects">Portfolio <i class="fa-solid fa-briefcase"></i></a></li>
+              <li><a href="#contact">Contact <i class="fa-solid fa-paper-plane"></i></a> </li>
             </ul>
           </nav>
 
@@ -50,64 +51,90 @@
       <main>
         <div class="hero">
           <h1>Jeanette Ferlan</h1>
-          <h2>Web Developer based in the Pacific Northwest</h2>
+          <h2>Web Developer based in the U.S. Pacific Northwest</h2>
           
         </div>
-        <div class="content-wrapper">
-          <p>Hello there, I’m Jeanette Ferlan. I’m a Web Developer who wants to bring your ideas to life.</p>
-          <p>When I’m not developing websites, I spend my time golfing, reading, catching the latest movie, or going on another family adventure. </p>
-        </div>
-        <div class="skills-list content-wrapper">
-          <div class="dev-lang">
-            <h3>Development Languages</h3>
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Javascript</li>
-              <li>React</li>
-              <li>Git</li>
-            </ul>
-          </div>
-          <div class="dev-tools">
-            <h3>Development Tools</h3>
-            <ul>
-              <li>GitHub</li>
-              <li>Visual Studio Code</li>
-              <li>CodeSandbox</li>
-              <li>Photoshop</li>
-            </ul>
+        <div id="about">
+          <div class="content-wrapper">
+            <p>Hello there, I’m Jeanette Ferlan, a Web Developer who wants to bring your ideas to life.</p>
+            <p></p>
+            <p>When I’m not developing websites, I spend my time golfing, reading, catching the latest movie, or going on another family adventure. </p>
           </div>
         </div>
-        <div>
+        <div id="skills-list">
+          <div class="content-wrapper">
+            <div class="dev-skills">
+              <h3>Developer Skills</h3>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>React</li>
+                <li>Responsive Web Development</li>
+                <li>SQL</li>
+                
+              </ul>
+            </div>
+            <div class="dev-tools">
+              <h3>Developer Tools</h3>
+              <ul>
+                <li>Git & GitHub</li>
+                <li>Visual Studio Code</li>
+                <li>CodeSandbox</li>
+                <li>Photoshop</li>
+                <li>Tableau</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div id="projects-list">
           <h2>Projects</h2>
-          <div class="projects">
+          <div class="project">
             <h3>Digital Sticky Notes</h3>
             <p>Interactive UI simulating sticky notes, utilizing Javascript and React</p>
             <p>Tech Stack: CodeSandbox, Javascript, React.js, HTML, CSS</p>
-            <p>
+            <figure>
+              <img src="img/super-sticky-notes.png" alt="sticky notes app">
+            </figure>
+            <button>
               <a href="https://z3wh33.csb.app/" target="_blank" rel="noopener">Live Site</a>
-            </p>
+            </button>
           </div>
-          <div class="projects">
+          <div class="project">
             <h3>GitHub Repo Gallery</h3>
             <p>A site hosted on GitHub Pages, providing a visual searchable portfolio, utilizing REST APIs</p>
             <p>Tech Stack: HTML, CSS, Javascript, REST APIs, Git, GitHub</p>
-            <p>
+            <figure>
+              <img src="img/github-repo-gallery.png" alt="GitHub Repo Gallery">
+            </figure>
+            <button>
               <a href="https://jeanette-f.github.io/github-repo-gallery/" target="_blank" rel="noopener">Live Site</a>
-            </p>
+            </button>
           </div>
-          <div class="projects">
-            
+          <div class="project">
+            <h3>Unplugged Team Retreats</h3>
+            <p>A responsive website for a team retreat company, using a mobile first approach, from a provided design comp</p>
+            <p>Tech Stack: HTML. CSS, mobile first responsive design, Git, GitHub, Photoshop</p>
+            <figure>
+              <img src="img/Unplugged Retreat.png" alt="Unplugged Retreat">
+            </figure>
+            <button>
+              <a href="https://jeanette-f.github.io/unplugged-website/" target="_blank" rel="noopener">Live Site</a>
+            </button>
           </div>
         </div>
       </main>
 
 <!--footer section -->
-      <footer>
-        <div class="content-wrapper contact">
-          <h3>Jeanette Ferlan</h3>
+      <footer id="contact">
+        <div class="content-wrapper">
+          <h2>Jeanette Ferlan</h2>
+          <p><i class="fa-solid fa-envelope"></i> hello@jeanetteferlan.com</p>
           <h3>Links</h3>
-
+          <a href="https://www.linkedin.com/in/jeanette-ferlan" target="_blank" title="LinkedIn">
+          <i class="fa-brands fa-linkedin fa-xl" style="color: #351D77"></i></a>
+          <a href="https://github.com/jeanette-f" target="_blank" title="GitHub">
+          <i class="fa-brands fa-github fa-xl" style="color: #351D77;"></i></a>
 
         </div>
       </footer>

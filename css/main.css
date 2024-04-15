@@ -1,27 +1,88 @@
+/* Global styles */
 * {
     color: #351D77;
     font-family: "Alata", sans-serif;
+    text-align: center;
 }
 
 .content-wrapper {
     width: 90%;
+    margin: 0 20px;
 }
 
-header {
-    background-color: #E8F0E4;
+a {
+    text-decoration: none;
 }
-
 h1 {
-    
+    margin: 0;
 }
 
 p {
     font-family: "Nunito Sans", sans-serif;
 }
 
+img {
+    width: 100%;
+}
+
+/* Header section styles */
+header {
+    background-color: #E8F0E4;
+    display: flex;
+}
+
+header nav {
+    text-transform: uppercase;
+    width: 60%;
+}
+
+header nav ul {
+    list-style: none;
+    text-decoration: none;
+    padding-inline-start: 0;
+}
+
+/* Hero area styles */
 .hero {
     background-color: #E8F0E4;
+    margin: 0;
+    padding: 20px 0;
 }
+/* About section styles */
+
+/* Skill section styles */
+#skills-list {
+    background-color: #E8F0E4;
+}
+
+#skills-list h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#skills-list ul {
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+/* Projects section styles */
+.project {
+    padding: 10px 0;
+}
+
+/* Footer section styles */
 footer {
     background-color: #E8F0E4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer i {
+    padding: 0 10px;
 }
