@@ -31,6 +31,10 @@ header {
     display: flex;
 }
 
+header h2 {
+    text-transform: uppercase;
+}
+
 header nav {
     text-transform: uppercase;
     width: 60%;
@@ -49,10 +53,14 @@ header nav ul {
     padding: 20px 0;
 }
 /* About section styles */
+#about img {
+    width: 50%;
+}
 
 /* Skill section styles */
 #skills-list {
     background-color: #E8F0E4;
+    padding: 20px 0;
 }
 
 #skills-list h3 {
