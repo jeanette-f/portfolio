@@ -29,6 +29,12 @@ img {
 header {
     background-color: #E8F0E4;
     display: flex;
+    justify-content: space-between;
+}
+
+header div {
+    display: flex;
+    padding: 0 10px;
 }
 
 header h2 {
@@ -37,7 +43,7 @@ header h2 {
 
 header nav {
     text-transform: uppercase;
-    width: 60%;
+    padding-right: 5px;
 }
 
 header nav ul {
@@ -45,6 +51,12 @@ header nav ul {
     text-decoration: none;
     padding-inline-start: 0;
 }
+header nav ul li {
+    text-align: end;
+    padding: 3px 0;
+}
+
+
 
 /* Hero area styles */
 .hero {
