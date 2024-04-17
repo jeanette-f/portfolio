@@ -188,6 +188,7 @@ header nav ul li {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex-flow: wrap;
 }
 
 .project {
@@ -329,6 +330,7 @@ div #about {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 550px;
 }
 
  }
