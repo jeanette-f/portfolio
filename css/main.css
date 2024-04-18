@@ -193,6 +193,16 @@ header nav ul li {
 
 .project {
     padding: 10px 20px;
+    margin: 10px 0;
+}
+
+.project-link {
+    background-color: #351D77;
+    color: #eee4f0;
+    text-transform: uppercase;
+    padding: 0.5rem 2rem;
+    border-radius: 20px;
+
 }
 
 /* Footer section styles */
@@ -304,6 +314,10 @@ section {
     justify-content: space-evenly;
 }
 /* Header tablet styles */
+header div {
+    padding: 20px;
+}
+
 header nav {
     display: flex;
 }
@@ -320,8 +334,11 @@ div #about {
     display: flex;
 }
 #about figure {
-    width: 500px;
+    align-self: center;
     margin: 20px;
+}
+#about img {
+    width: 200px;
 }
 /* Project section tablet styles */
 .project {
@@ -338,6 +355,7 @@ div #about {
 
  @media only screen and (min-width: 1200px) {
     /* Desktop styles here */
-
-
+    .project {
+        padding: 20px;
+    }
  }
