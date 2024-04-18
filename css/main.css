@@ -355,7 +355,15 @@ div #about {
 
  @media only screen and (min-width: 1200px) {
     /* Desktop styles here */
-    .project {
-        padding: 20px;
-    }
- }
+header {
+    justify-content: space-evenly;
+}
+
+#about .content-wrapper {
+    max-width: 1300px;
+}
+
+.project {
+    padding: 20px;
+}
+}
