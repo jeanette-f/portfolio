@@ -112,6 +112,7 @@ p {
 
 img {
     width: 100%;
+    object-fit: contain;
 }
 
 /* Header section styles */
@@ -345,7 +346,7 @@ div #about {
     padding: 10px 50px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     max-width: 550px;
 }
